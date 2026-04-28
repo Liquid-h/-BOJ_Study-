@@ -13,6 +13,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Remove existing folders with same name (pre-cleanup)
+        run: |
+          shopt -s nullglob
+          for d in 0* 1*; do
+            [ -d "LeetCode/$d" ] && rm -rf "LeetCode/$d"
+          done
+
       - name: Move LeetCode Folders
         run: |
           mkdir -p LeetCode
