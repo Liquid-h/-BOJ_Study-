@@ -17,4 +17,12 @@ and LeetHub
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Liquid-h/-PS_Study-/tree/master/0001-two-sum) |
+## Math
+|  |
+| ------- |
+| [2485-find-the-pivot-integer](https://github.com/Liquid-h/-PS_Study-/tree/master/2485-find-the-pivot-integer) |
+## Prefix Sum
+|  |
+| ------- |
+| [2485-find-the-pivot-integer](https://github.com/Liquid-h/-PS_Study-/tree/master/2485-find-the-pivot-integer) |
 <!---LeetCode Topics End-->
